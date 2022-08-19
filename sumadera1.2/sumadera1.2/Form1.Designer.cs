@@ -214,6 +214,7 @@
             this.txt_resultado4.Size = new System.Drawing.Size(100, 20);
             this.txt_resultado4.TabIndex = 16;
             this.txt_resultado4.Text = "0";
+            
             // 
             // txt_resultado8
             // 
@@ -250,6 +251,7 @@
             this.txt_resultado1.Size = new System.Drawing.Size(100, 20);
             this.txt_resultado1.TabIndex = 20;
             this.txt_resultado1.Text = "0";
+            
             // 
             // txt_resultado3
             // 
@@ -264,7 +266,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(518, 265);
+            this.ClientSize = new System.Drawing.Size(465, 265);
             this.Controls.Add(this.txt_resultado3);
             this.Controls.Add(this.txt_resultado2);
             this.Controls.Add(this.txt_resultado1);
@@ -291,7 +293,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.TextChanged += new System.EventHandler(this.suma);
+            
             this.ResumeLayout(false);
             this.PerformLayout();
 
